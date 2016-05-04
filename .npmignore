@@ -1,1 +1,5 @@
+*.iml
+.idea
+*.log
+node_modules
 test
