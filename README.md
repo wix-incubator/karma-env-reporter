@@ -11,12 +11,12 @@ npm install --save-dev karma-env-reporter
 
 # usage
 
-In you package.json append `--reporters karma-env-reporter` to your karma test command, ex.
+In you package.json append `--reporters env` to your karma test command, ex.
   
 ```js
 ...
   "scripts": {
-    "test": "karma --reporters karma-env-reporter"
+    "test": "karma --reporters env"
   },
 ...
 ```
