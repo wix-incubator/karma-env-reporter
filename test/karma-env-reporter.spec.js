@@ -1,3 +1,5 @@
+'use strict';
+
 var expect = require('chai').expect;
 var teamcityReporter = require('karma-teamcity-reporter')['reporter:teamcity'];
 var specReporter = require('karma-spec-reporter')['reporter:spec'];
