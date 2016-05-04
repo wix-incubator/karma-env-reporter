@@ -1,6 +1,6 @@
 {
   "name": "karma-env-reporter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ci/dev environment aware karma reporter",
   "author": "Amir Arad <amira@wix.com>",
   "license": "SEE LICENSE IN LICENSE.md",
