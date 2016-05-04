@@ -1,0 +1,36 @@
+{
+  "name": "karma-env-reporter",
+  "version": "1.0.0",
+  "description": "ci/dev environment aware karma reporter",
+  "author": "Amir Arad <amira@wix.com>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://github.com/wix/karma-env-reporter",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint test/ index.js",
+    "pretest": "npm run lint -s",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wix/karma-env-reporter"
+  },
+  "keywords": [
+    "karma",
+    "reporter",
+    "ci"
+  ],
+  "bugs": {
+    "url": "https://github.com/wix/karma-env-reporter/issues"
+  },
+  "dependencies": {
+    "karma-spec-reporter": "0.0.26",
+    "karma-teamcity-reporter": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "chai": "3.5.0",
+    "jshint": "2.9.1",
+    "shelljs": "0.6.0"
+  }
+}
