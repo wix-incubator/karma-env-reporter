@@ -28,9 +28,9 @@
     "karma-teamcity-reporter": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "2.4.5",
+    "mocha": "2.5.3",
     "mocha-env-reporter": "1.0.2",
     "chai": "3.5.0",
-    "jshint": "2.9.1"
+    "jshint": "2.9.2"
   }
 }
